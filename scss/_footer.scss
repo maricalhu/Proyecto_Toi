@@ -1,0 +1,64 @@
+$colors: (
+ facebook:  #3a5795,
+ instagram: #cc2dd5,
+ gmail: #d35309,
+ youtube: #f00606,
+ whatsapp: #079e28,
+ credito: #fcf802be,
+ efectivo: #ffffffd0,
+);
+
+@each $name-color, $bgcolor in $colors {
+    .fondoColor--#{$name-color} {
+        background-color: $bgcolor;
+    }
+ }
+
+ @mixin sizes($width, $height) {
+    height: $height;
+    width: $width;
+ }
+ .iconFooter {
+    @include sizes(30px, 24px);
+ }
+ 
+
+
+footer {
+    background-color: #a22dd5;
+    margin-top: 20px;
+    section {
+        div {
+            ul{
+                color: #d5a22d;
+                font-size: 20px;
+                li {
+                    a {
+                        color:#d5a22d;
+                    }
+                }
+            }
+            p {
+                color:#2dd5a2;
+                font-family: 'Bangers', cursive;
+                font-size: 30px;
+            }
+        }
+    }
+}
+
+#footer {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    ul {
+        list-style: none;
+    }
+    div {
+        margin: 20px;
+    }
+}
+
+

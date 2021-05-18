@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+h1 {
+    font-family: 'Bangers', cursive;
+    color: white;
+    margin-left: 20px;
+}
+
+#bannerChico {
+    background-color: #650F8A;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+ul {
+    li {
+        a {
+            color: white;
+            list-style:none
+        }
+    }
+}
+}
+
+#logoImg img {
+    width: 100px;
+    height: 100px;
+    margin-left: 70px;
+}
+
+#bannerNav {
+    background-color: #a22dd5;
+}
+
+h2 {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    ul {
+        li {
+            a {
+                color: white;
+            }
+        }
+    }
+}
+
+.navTamaño {
+    font-size: 25px;
+}

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tienda de juegos de mesa online, con envios a toda Argentina. Con variedad de juegos para toda la familia y amigos.">
+    <meta name="keywords"  content="juegos de mesa, board game, argentina, toi, familiares, party game, cartas, tablero, dados, tienda">
+    <title>Toi Argentina</title>
+    <link rel="stylesheet" href="/sass/css/prueba.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Open+Sans&display=swap" rel="stylesheet">
+    <style> a {text-decoration: none;} </style>
+    <!--Botstrap de manera local-->
+    <link rel="stylesheet" href="/sass/boostrap/css/bootstrap.css">
+</head>
+<body>
+    <!--Inicio del banner de navegación-->
+    <header class="row">
+        <nav class="col-md-12">
+            <section id="bannerChico">
+                <ul class="nav justify-content-center">
+                    <li><a href="./pages/Crear.html">Crear Cuenta</a></li> |
+                    <li><a href="./pages/Iniciar.html">Iniciar Sesión</a></li>
+                </ul>
+            </section>
+        <!--Logo y vinculos para expliorar el sitio-->
+        <section id="bannerNav">
+            <div>
+                <h1>Toi Argentina</h1>
+            </div>
+                <div id="logoImg">
+                    <a href="./index.html">
+                        <img class="logo" src="../imagenes/003b52bed32fc07d48e2fede3805f1b31460480bdedaade2730e9101be5042ad41214.png" alt="LOGO">
+                    </a>
+            </div>
+
+            <div>
+                <h2>
+                    <ul class="nav justify-content-end navTamaño">
+                        <li><a class="nav-link" href="./index.html">Inicio</a></li>
+                        <li><a class="nav-link" href="./pages/Productos.html">Productos</a></li>
+                        <li><a class="nav-link" href="./pages/Contacto.html">Contactos</a></li>
+                        <li><a class="nav-link" href="./pages/Nosotros.html">Nosotros</a></li>
+                    </ul>
+                </h2> 
+            </div>
+            </section>
+        </nav>
+    </header>
+<!--inicio del formulario-->
+    <section>
+      <fieldset>
+        <legend>Formulario de Contacto</legend>
+        <form action="">
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre"> <br>
+            <label for="apellido">Apellido</label>
+            <input type="text" name="apellido"> <br>
+            <label for="provincia">Provincia</label>
+            <select name="provincias">
+                <option value="buenosAires">Buenos Aires</option>
+                <option value="CABA">CABA</option>
+                <option value="Catamarca">Catamarca</option>
+                <option value="Chaco">Chaco</option>
+                <option value="Chubut">Chubut</option>
+                <option value="Córdoba">Córdoba</option>
+                <option value="Corrientes">Corrientes</option>
+                <option value="EntreRíos">Entre Ríos</option>
+                <option value="Formosa">Formosa</option>
+                <option value="Jujuy">Jujuy</option>
+                <option value="LaPampa">La Pampa</option>
+                <option value="LaRioja">La Rioja</option>
+                <option value="Mendoza">Mendoza</option>
+                <option value="Misiones">Misiones</option>
+                <option value="Neuquén">Neuquén</option>
+                <option value="RíoNegro">Río Negro</option>
+                <option value="Salta">Salta</option>
+                <option value="SanJuan">San Juan</option>
+                <option value="SanLuis">San Luis</option>
+                <option value="SantaCruz">Santa Cruz</option>
+                <option value="SantaFe">Santa Fe</option>
+                <option value="SantiagodelEstero">Santiago del Estero</option>
+                <option value="TierradelFuego">Tierra del Fuego</option>
+                <option value="Tucumán">Tucumán</option>
+
+            </select> <br>
+            <label for="email">Correo Electrónico</label>
+            <input type="email" name="email">
+            <p>Consulta:</p>
+            <textarea name="consulta" id="" cols="30" rows="10"></textarea> <br>
+            <span>Deseos recibir novedades a mi correo</span>
+            <input type="checkbox" name="acepta" value="1"><br>
+            <input type="submit" value="Enviar formulario"/>
+            <input type="reset" value="Limpiar formulario"/>
+            
+      </fieldset>
+
+        </form>
+    </section>
+<!--fin del formulario-->
+<footer class="row">
+    <section id="footer" class="col-md-12">
+        <div>
+            <p>Medios de pago</p>
+                 <ul>
+                     <li> <img src="/sass/imagenes/efectivo.svg" class="d-inline-block align-text-top fondoColor--efectivo iconFooter">
+                       Efectivo</li>
+                     <li> <img src="/sass/imagenes/credit.svg" class="d-inline-block align-text-top fondoColor--credito iconFooter">
+                       Crédito</li>
+                 </ul>
+         </div>        
+
+         <div>
+             <p>Envios</p>
+         </div> 
+
+         <div>
+             <p>Redes Sociales</p>
+             <ul>
+                <li> <a class="navbar-brand" href="#">
+                    <img src="../imagenes/facebook.svg" class="d-inline-block align-text-top fondoColor--facebook iconFooter">
+                    Facebook
+                  </a></li>
+                <li> <a class="navbar-brand" href="#">
+                    <img src="../imagenes/instagram.svg" class="d-inline-block align-text-top fondoColor--instagram iconFooter">
+                    Instragram
+                  </a></li>
+                <li> <a class="navbar-brand" href="#">
+                    <img src="../imagenes/youtube.svg" class="d-inline-block align-text-top fondoColor--youtube iconFooter">
+                    Youtube
+                  </a></li>
+             </ul>
+         </div> 
+         <div>   
+             <p>Contacto</p>
+             <ul>
+                 <li><img src="../imagenes/whatsapp.svg" class="d-inline-block align-text-top fondoColor--whatsapp iconFooter">
+                   Whatsapp: 3517555969</li>
+                 <li> <img src="../imagenes/mail.svg" class="d-inline-block align-text-top fondoColor--gmail iconFooter">
+                   Correo: toi.argentina.ok@gmail.com</li>
+             </ul>
+         </div> 
+ </section>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+</body>
+</html>

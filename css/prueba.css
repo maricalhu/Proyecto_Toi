@@ -1,0 +1,110 @@
+@charset "UTF-8";
+/*algun comentario lalalala lalala*/
+.fondoColor--facebook {
+  background-color: #3a5795; }
+
+.fondoColor--instagram {
+  background-color: #cc2dd5; }
+
+.fondoColor--gmail {
+  background-color: #d35309; }
+
+.fondoColor--youtube {
+  background-color: #f00606; }
+
+.fondoColor--whatsapp {
+  background-color: #079e28; }
+
+.fondoColor--credito {
+  background-color: #fcf802be; }
+
+.fondoColor--efectivo {
+  background-color: #ffffffd0; }
+
+.iconFooter {
+  height: 24px;
+  width: 30px; }
+
+footer {
+  background-color: #a22dd5;
+  margin-top: 20px; }
+  footer section div ul {
+    color: #d5a22d;
+    font-size: 20px; }
+    footer section div ul li a {
+      color: #d5a22d; }
+  footer section div p {
+    color: #2dd5a2;
+    font-family: 'Bangers', cursive;
+    font-size: 30px; }
+
+#footer {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  justify-content: space-evenly;
+  flex-direction: row; }
+  #footer ul {
+    list-style: none; }
+  #footer div {
+    margin: 20px; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none;
+  color: white; }
+
+h1 {
+  font-family: 'Bangers', cursive;
+  color: white;
+  margin-left: 20px; }
+
+#bannerChico {
+  background-color: #650F8A;
+  font-family: 'Open Sans', sans-serif;
+  color: white; }
+  #bannerChico ul li a {
+    color: white;
+    list-style: none; }
+
+#logoImg img {
+  width: 100px;
+  height: 100px;
+  margin-left: 70px; }
+
+#bannerNav {
+  background-color: #a22dd5; }
+
+h2 {
+  color: white;
+  font-family: 'Open Sans', sans-serif; }
+  h2 ul li a {
+    color: white; }
+
+.navTamaño {
+  font-size: 25px; }
+
+legend {
+  font-family: 'Bangers', cursive;
+  color: #2dd5a2;
+  font-size: 50px; }
+
+div legend {
+  font-family: 'Bangers', cursive;
+  color: #2dd5a2;
+  font-size: 40px; }
+
+.principal {
+  margin-left: 20px; }
+
+section fieldset {
+  margin: 30px;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center; }
+  section fieldset legend {
+    font-family: 'Bangers', cursive;
+    color: #2dd5a2;
+    font-size: 40px; }

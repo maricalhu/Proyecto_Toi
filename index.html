@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tienda de juegos de mesa online, con envios a toda Argentina. Con variedad de juegos para toda la familia y amigos.">
+    <meta name="keywords"  content="juegos de mesa, board game, argentina, toi, familiares, party game, cartas, tablero, dados, tienda">
+    <title>Toi Argentina</title>
+    <link rel="stylesheet" href="css/prueba.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Open+Sans&display=swap" rel="stylesheet">
+    <style> a {text-decoration: none;} </style>
+    <!--Botstrap de manera local-->
+    <link rel="stylesheet" href="boostrap/css/bootstrap.css">
+</head>
+<body>
+    <header class="row">
+        <nav class="col-md-12">
+            <section id="bannerChico">
+                <ul class="nav justify-content-center">
+                    <li><a href="./pages/Crear.html">Crear Cuenta</a></li> |
+                    <li><a href="./pages/Iniciar.html">Iniciar Sesión</a></li>
+                </ul>
+            </section>
+        <!--Logo y vinculos para expliorar el sitio-->
+        <section id="bannerNav">
+            <div>
+                <h1>Toi Argentina</h1>
+            </div>
+                <div id="logoImg">
+                    <a href="./index.html">
+                        <img class="logo" src="./imagenes/003b52bed32fc07d48e2fede3805f1b31460480bdedaade2730e9101be5042ad41214.png" alt="LOGO">
+                    </a>
+            </div>
+
+            <div>
+                <h2>
+                    <ul class="nav justify-content-end navTamaño">
+                        <li><a class="nav-link" href="./index.html">Inicio</a></li>
+                        <li><a class="nav-link" href="./pages/Productos.html">Productos</a></li>
+                        <li><a class="nav-link" href="./paginas/Contacto.html">Contactos</a></li>
+                        <li><a class="nav-link" href="./pages/Nosotros.html">Nosotros</a></li>
+                    </ul>
+                </h2> 
+            </div>
+            </section>
+        </nav>
+    </header>
+    <section class="container"> <!--Banner de destacados-->
+        <h2>
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="imagenes/banner.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="imagenes/banner2.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="imagenes/banner3.png" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+        </h2>
+    </section>
+
+    <div class="principal row">
+        <aside class="col-md-4">
+            <legend>Filtros</legend> <!--Filtro de juegos-->
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">
+                  Familiares
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">
+                  Cartas
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">
+                  PartyGame
+                </label>
+              </div>
+              
+              <div class="form-row align-items-center">
+                <div class="col-auto my-1">
+                  <label class="mr-sm-2 sr-only" for="inlineFormCustomSelect">Preference</label>
+                  <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                    <option selected>Jugadores</option>
+                    <option value="1">1-4</option>
+                    <option value="2">1-5</option>
+                    <option value="3">5+</option>
+                  </select>
+        </aside>
+        <main class="col-md-8">
+            <section> <!--Tienda de Novedades-->
+                <legend>Novedades</legend>
+                <div class="card" style="width: 18rem;">
+                  <img src="imagenes/carcassone.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <a href="#" class="btn btn-outline-success">Carcassone</a>
+                  </div>
+                </div>
+        </main>
+    </div>
+    
+
+    <footer class="row">
+            <section id="footer" class="col-md-12">
+                <div>
+                    <p>Medios de pago</p>
+                         <ul>
+                             <li> <img src="/sass/imagenes/efectivo.svg" class="d-inline-block align-text-top fondoColor--efectivo iconFooter">
+                               Efectivo</li>
+                             <li> <img src="/sass/imagenes/credit.svg" class="d-inline-block align-text-top fondoColor--credito iconFooter">
+                               Crédito</li>
+                         </ul>
+                 </div>        
+     
+                 <div>
+                     <p>Envios</p>
+                 </div> 
+     
+                 <div>
+                     <p>Redes Sociales</p>
+                     <ul>
+                        <li> <a class="navbar-brand" href="#">
+                            <img src="imagenes/facebook.svg" class="d-inline-block align-text-top fondoColor--facebook iconFooter">
+                            Facebook
+                          </a></li>
+                        <li> <a class="navbar-brand" href="#">
+                            <img src="imagenes/instagram.svg" class="d-inline-block align-text-top fondoColor--instagram iconFooter">
+                            Instragram
+                          </a></li>
+                        <li> <a class="navbar-brand" href="#">
+                            <img src="imagenes/youtube.svg" class="d-inline-block align-text-top fondoColor--youtube iconFooter">
+                            Youtube
+                          </a></li>
+                     </ul>
+                 </div> 
+                 <div>   
+                     <p>Contacto</p>
+                     <ul>
+                         <li><img src="/sass/imagenes/mail.svg" class="d-inline-block align-text-top fondoColor--whatsapp iconFooter">
+                           Whatsapp: 3517555969</li>
+                         <li> <img src="/sass/imagenes/mail.svg" class="d-inline-block align-text-top fondoColor--gmail iconFooter">
+                           Correo: toi.argentina.ok@gmail.com</li>
+                     </ul>
+                 </div> 
+         </section>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+</body>
+</html>
